@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/chains-conversation-memory-sqlite
+module gitlab.com/shidfar/langchaingo/examples/chains-conversation-memory-sqlite
 
 go 1.24.3
 

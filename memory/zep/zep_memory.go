@@ -3,11 +3,10 @@ package zep
 import (
 	"context"
 
-	"github.com/getzep/zep-go"
 	zepClient "github.com/getzep/zep-go/client"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/memory"
-	"github.com/tmc/langchaingo/schema"
+	"gitlab.com/shidfar/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/memory"
+	"gitlab.com/shidfar/langchaingo/schema"
 )
 
 // Memory is a simple form of memory that remembers previous conversational back and forth directly.

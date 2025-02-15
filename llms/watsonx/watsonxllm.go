@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	wx "github.com/IBM/watsonx-go/pkg/models"
-	"github.com/tmc/langchaingo/callbacks"
-	"github.com/tmc/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/callbacks"
+	"gitlab.com/shidfar/langchaingo/llms"
 )
 
 var (

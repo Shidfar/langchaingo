@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tmc/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/llms"
 )
 
 // Suite tests provider compliance with the LLM interface.

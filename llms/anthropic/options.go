@@ -3,7 +3,7 @@ package anthropic
 import (
 	"time"
 
-	"github.com/tmc/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/llms"
 )
 
 // WithPromptCaching enables Anthropic's prompt caching feature.

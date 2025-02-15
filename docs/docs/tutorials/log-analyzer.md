@@ -47,9 +47,9 @@ import (
     "strings"
     "time"
 
-    "github.com/tmc/langchaingo/llms"
-    "github.com/tmc/langchaingo/llms/openai"
-    "github.com/tmc/langchaingo/prompts"
+    "gitlab.com/shidfar/langchaingo/llms"
+    "gitlab.com/shidfar/langchaingo/llms/openai"
+    "gitlab.com/shidfar/langchaingo/prompts"
 )
 
 type LogEntry struct {
@@ -540,8 +540,8 @@ import (
     "time"
 
     "github.com/fsnotify/fsnotify"
-    "github.com/tmc/langchaingo/llms"
-    "github.com/tmc/langchaingo/chains"
+    "gitlab.com/shidfar/langchaingo/llms"
+    "gitlab.com/shidfar/langchaingo/chains"
 )
 
 type LogMonitor struct {

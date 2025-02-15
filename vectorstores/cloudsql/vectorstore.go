@@ -9,10 +9,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5"
 	"github.com/pgvector/pgvector-go"
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/util/cloudsqlutil"
-	"github.com/tmc/langchaingo/vectorstores"
+	"gitlab.com/shidfar/langchaingo/embeddings"
+	"gitlab.com/shidfar/langchaingo/schema"
+	"gitlab.com/shidfar/langchaingo/util/cloudsqlutil"
+	"gitlab.com/shidfar/langchaingo/vectorstores"
 )
 
 const (

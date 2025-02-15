@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/httputil"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms"
-	"github.com/tmc/langchaingo/llms/googleai"
+	"gitlab.com/shidfar/langchaingo/httputil"
+	"gitlab.com/shidfar/langchaingo/internal/httprr"
+	"gitlab.com/shidfar/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/llms/googleai"
 )
 
 func newHTTPRRClient(t *testing.T, opts ...googleai.Option) *Vertex {

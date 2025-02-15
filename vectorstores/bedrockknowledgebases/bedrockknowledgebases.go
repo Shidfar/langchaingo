@@ -15,8 +15,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	smithyDocument "github.com/aws/smithy-go/document"
 	"github.com/google/uuid"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/vectorstores"
+	"gitlab.com/shidfar/langchaingo/schema"
+	"gitlab.com/shidfar/langchaingo/vectorstores"
 )
 
 type bedrockAgentAPI interface {

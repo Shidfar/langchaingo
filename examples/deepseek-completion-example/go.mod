@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/deepseek-completion-example
+module gitlab.com/shidfar/langchaingo/examples/deepseek-completion-example
 
 go 1.24.3
 

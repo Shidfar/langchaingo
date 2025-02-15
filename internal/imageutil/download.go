@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/tmc/langchaingo/httputil"
+	"gitlab.com/shidfar/langchaingo/httputil"
 )
 
 // downloadImageData downloads the content from the given URL and returns the

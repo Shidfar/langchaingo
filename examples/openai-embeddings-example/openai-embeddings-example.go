@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tmc/langchaingo/llms/openai"
+	"gitlab.com/shidfar/langchaingo/llms/openai"
 )
 
 func main() {

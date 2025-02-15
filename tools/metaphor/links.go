@@ -7,8 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/metaphorsystems/metaphor-go"
-	"github.com/tmc/langchaingo/tools"
+	"gitlab.com/shidfar/langchaingo/tools"
 )
 
 // LinksSearch defines a tool implementation for the Metaphor Find Similar Links.

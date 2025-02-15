@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/httputil"
+	"gitlab.com/shidfar/langchaingo/httputil"
 )
 
 func TestNewVoyageAI(t *testing.T) { //nolint:funlen // comprehensive test

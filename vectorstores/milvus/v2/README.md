@@ -13,10 +13,10 @@ The original `vectorstores/milvus` package uses the archived `github.com/milvus-
 1. **Update imports**:
    ```go
    // Old
-   import "github.com/tmc/langchaingo/vectorstores/milvus"
+   import "gitlab.com/shidfar/langchaingo/vectorstores/milvus"
 
    // New
-   import "github.com/tmc/langchaingo/vectorstores/milvus/v2"
+   import "gitlab.com/shidfar/langchaingo/vectorstores/milvus/v2"
    ```
 
 2. **Update configuration** (optional - v1 configs are automatically converted):
@@ -74,10 +74,10 @@ import (
     "github.com/milvus-io/milvus/client/v2/entity"
     "github.com/milvus-io/milvus/client/v2/index"
     "github.com/milvus-io/milvus/client/v2/milvusclient"
-    "github.com/tmc/langchaingo/embeddings"
-    "github.com/tmc/langchaingo/llms/openai"
-    "github.com/tmc/langchaingo/schema"
-    "github.com/tmc/langchaingo/vectorstores/milvus/v2"
+    "gitlab.com/shidfar/langchaingo/embeddings"
+    "gitlab.com/shidfar/langchaingo/llms/openai"
+    "gitlab.com/shidfar/langchaingo/schema"
+    "gitlab.com/shidfar/langchaingo/vectorstores/milvus/v2"
 )
 
 func main() {

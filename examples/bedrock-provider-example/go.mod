@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/bedrock-provider-example
+module gitlab.com/shidfar/langchaingo/examples/bedrock-provider-example
 
 go 1.23.8
 

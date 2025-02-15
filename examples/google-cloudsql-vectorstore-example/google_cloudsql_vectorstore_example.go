@@ -6,13 +6,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/tmc/langchaingo/embeddings"
-	"github.com/tmc/langchaingo/llms/googleai"
-	"github.com/tmc/langchaingo/llms/googleai/vertex"
-	"github.com/tmc/langchaingo/schema"
-	"github.com/tmc/langchaingo/util/cloudsqlutil"
-	"github.com/tmc/langchaingo/vectorstores"
-	"github.com/tmc/langchaingo/vectorstores/cloudsql"
+	"gitlab.com/shidfar/langchaingo/embeddings"
+	"gitlab.com/shidfar/langchaingo/llms/googleai"
+	"gitlab.com/shidfar/langchaingo/llms/googleai/vertex"
+	"gitlab.com/shidfar/langchaingo/schema"
+	"gitlab.com/shidfar/langchaingo/util/cloudsqlutil"
+	"gitlab.com/shidfar/langchaingo/vectorstores"
+	"gitlab.com/shidfar/langchaingo/vectorstores/cloudsql"
 )
 
 func getEnvVariables() (string, string, string, string, string, string, string, string) {

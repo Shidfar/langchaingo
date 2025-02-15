@@ -558,9 +558,9 @@ import (
     "strings"
     "text/template"
 
-    "github.com/tmc/langchaingo/llms"
-    "github.com/tmc/langchaingo/llms/openai"
-    "github.com/tmc/langchaingo/prompts"
+    "gitlab.com/shidfar/langchaingo/llms"
+    "gitlab.com/shidfar/langchaingo/llms/openai"
+    "gitlab.com/shidfar/langchaingo/prompts"
 )
 
 type DocGenerator struct {

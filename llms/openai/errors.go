@@ -3,7 +3,7 @@ package openai
 import (
 	"strings"
 
-	"github.com/tmc/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/llms"
 )
 
 // errorMapping represents a mapping from error patterns to error codes.

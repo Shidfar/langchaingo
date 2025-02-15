@@ -44,8 +44,8 @@ import (
     "strings"
     "testing"
     
-    "github.com/tmc/langchaingo/agents"
-    "github.com/tmc/langchaingo/schema"
+    "gitlab.com/shidfar/langchaingo/agents"
+    "gitlab.com/shidfar/langchaingo/schema"
 )
 
 func TestImprovedParsing(t *testing.T) {

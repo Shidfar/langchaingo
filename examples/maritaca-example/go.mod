@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/maritaca-example
+module gitlab.com/shidfar/langchaingo/examples/maritaca-example
 
 go 1.24.3
 

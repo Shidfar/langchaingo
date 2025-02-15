@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/google-cloudsql-vectorstore-example
+module gitlab.com/shidfar/langchaingo/examples/google-cloudsql-vectorstore-example
 
 go 1.24.3
 

@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/openai-embeddings-example
+module gitlab.com/shidfar/langchaingo/examples/openai-embeddings-example
 
 go 1.24.3
 

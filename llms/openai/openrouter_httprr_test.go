@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/internal/httprr"
-	"github.com/tmc/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/internal/httprr"
+	"gitlab.com/shidfar/langchaingo/llms"
 )
 
 // TestOpenRouterWithHTTPRR tests OpenRouter integration with recorded HTTP responses

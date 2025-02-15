@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/reasoning-tokens
+module gitlab.com/shidfar/langchaingo/examples/reasoning-tokens
 
 go 1.23.8
 

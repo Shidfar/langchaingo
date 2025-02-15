@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/interleaved-thinking
+module gitlab.com/shidfar/langchaingo/examples/interleaved-thinking
 
 go 1.23.8
 

@@ -3,8 +3,8 @@ package zapier
 import (
 	"context"
 
-	"github.com/tmc/langchaingo/tools"
-	"github.com/tmc/langchaingo/tools/zapier/internal"
+	"gitlab.com/shidfar/langchaingo/tools"
+	"gitlab.com/shidfar/langchaingo/tools/zapier/internal"
 )
 
 type ToolkitOpts struct {

@@ -4,10 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/pkoukk/tiktoken-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tmc/langchaingo/schema"
+	"gitlab.com/shidfar/langchaingo/schema"
 )
 
 func TestMarkdownHeaderTextSplitter_SplitText(t *testing.T) {

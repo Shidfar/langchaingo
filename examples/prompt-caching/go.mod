@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/prompt-caching
+module gitlab.com/shidfar/langchaingo/examples/prompt-caching
 
 go 1.23.8
 

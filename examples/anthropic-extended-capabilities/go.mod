@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/anthropic-extended-capabilities
+module gitlab.com/shidfar/langchaingo/examples/anthropic-extended-capabilities
 
 go 1.23.8
 

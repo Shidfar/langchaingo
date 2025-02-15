@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo/examples/google-cloudsql-chat-message-history-example
+module gitlab.com/shidfar/langchaingo/examples/google-cloudsql-chat-message-history-example
 
 go 1.24.3
 
