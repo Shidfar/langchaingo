@@ -1,4 +1,4 @@
-module github.com/tmc/langchaingo
+module gitlab.com/shidfar/langchaingo
 
 go 1.24.4
 
