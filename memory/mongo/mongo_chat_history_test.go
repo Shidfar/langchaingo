@@ -12,8 +12,8 @@ import (
 	"github.com/testcontainers/testcontainers-go/log"
 	"github.com/testcontainers/testcontainers-go/modules/mongodb"
 	"github.com/testcontainers/testcontainers-go/wait"
-	"github.com/tmc/langchaingo/internal/testutil/testctr"
-	"github.com/tmc/langchaingo/llms"
+	"gitlab.com/shidfar/langchaingo/internal/testutil/testctr"
+	"gitlab.com/shidfar/langchaingo/llms"
 )
 
 func runTestContainer(t *testing.T) string {

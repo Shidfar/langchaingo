@@ -23,7 +23,7 @@ A CLI tool that:
 mkdir smart-docs
 cd smart-docs
 go mod init smart-docs
-go get github.com/tmc/langchaingo
+go get gitlab.com/shidfar/langchaingo
 go get golang.org/x/tools/go/packages
 go get golang.org/x/tools/go/ast/astutil
 ```

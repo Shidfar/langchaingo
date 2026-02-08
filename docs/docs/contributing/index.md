@@ -38,7 +38,7 @@ Thank you for your interest in contributing to LangChainGo! This guide helps you
 
 3. Add the upstream remote:
    ```bash
-   git remote add upstream https://github.com/tmc/langchaingo.git
+   git remote add upstream https://gitlab.com/shidfar/langchaingo.git
    ```
 
 4. Create a feature branch:

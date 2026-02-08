@@ -23,7 +23,7 @@ A CLI tool that:
 mkdir log-analyzer
 cd log-analyzer
 go mod init log-analyzer
-go get github.com/tmc/langchaingo
+go get gitlab.com/shidfar/langchaingo
 go get github.com/sirupsen/logrus  # For structured logging examples
 ```
 

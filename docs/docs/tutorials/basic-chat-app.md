@@ -15,7 +15,7 @@ go mod init chat-app
 Install LangChainGo:
 
 ```bash
-go get github.com/tmc/langchaingo
+go get gitlab.com/shidfar/langchaingo
 ```
 
 ## Step 2: Configure Your API Key

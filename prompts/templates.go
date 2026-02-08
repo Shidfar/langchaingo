@@ -41,8 +41,8 @@ import (
 	"text/template"
 
 	"github.com/Masterminds/sprig/v3"
-	"github.com/tmc/langchaingo/prompts/internal/fstring"
-	sanitization "github.com/tmc/langchaingo/prompts/internal/sanitization"
+	"gitlab.com/shidfar/langchaingo/prompts/internal/fstring"
+	sanitization "gitlab.com/shidfar/langchaingo/prompts/internal/sanitization"
 )
 
 // ErrInvalidTemplateFormat is the error when the template format is invalid and

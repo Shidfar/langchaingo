@@ -56,7 +56,7 @@ func changeToRepoRoot() error {
 		if err == nil {
 			lines := strings.Split(string(content), "\n")
 			for _, line := range lines {
-				if strings.HasPrefix(line, "module github.com/tmc/langchaingo") &&
+				if strings.HasPrefix(line, "module gitlab.com/shidfar/langchaingo") &&
 					!strings.HasPrefix(line, "module gitlab.com/shidfar/langchaingo/") {
 					// Already at the root
 					if *flagVerbose {
@@ -84,7 +84,7 @@ func changeToRepoRoot() error {
 			if err == nil {
 				lines := strings.Split(string(content), "\n")
 				for _, line := range lines {
-					if strings.HasPrefix(line, "module github.com/tmc/langchaingo") &&
+					if strings.HasPrefix(line, "module gitlab.com/shidfar/langchaingo") &&
 						!strings.HasPrefix(line, "module gitlab.com/shidfar/langchaingo/") {
 						// Found the root, change directory
 						if err := os.Chdir(currentDir); err != nil {

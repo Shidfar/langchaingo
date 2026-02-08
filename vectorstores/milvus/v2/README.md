@@ -258,4 +258,4 @@ go test ./vectorstores/milvus/v2/...
 
 - [Migration Examples](example_migration.go) - Detailed migration examples
 - [Milvus SDK v2 Documentation](https://milvus.io/docs)
-- [LangChain Go Documentation](https://github.com/tmc/langchaingo)
+- [LangChain Go Documentation](https://gitlab.com/shidfar/langchaingo)

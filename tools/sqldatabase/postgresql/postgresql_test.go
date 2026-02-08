@@ -14,8 +14,8 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/log"
 	"github.com/testcontainers/testcontainers-go/modules/postgres"
-	"github.com/tmc/langchaingo/internal/testutil/testctr"
-	"github.com/tmc/langchaingo/tools/sqldatabase"
+	"gitlab.com/shidfar/langchaingo/internal/testutil/testctr"
+	"gitlab.com/shidfar/langchaingo/tools/sqldatabase"
 )
 
 func Test(t *testing.T) {
