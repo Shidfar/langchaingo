@@ -459,11 +459,18 @@ func handleTextDelta(ctx context.Context, delta map[string]interface{}, response
 	}
 	textContent.Text += text
 
-	// Streaming functions only work with text deltas.
+	// Stream text to the appropriate callback.
 	if payload.StreamingFunc != nil {
 		err := payload.StreamingFunc(ctx, []byte(text))
 		if err != nil {
 			return response, fmt.Errorf("streaming func returned an error: %w", err)
+		}
+	} else if payload.StreamingReasoningFunc != nil {
+		// When only StreamingReasoningFunc is set (no StreamingFunc),
+		// deliver text deltas as content chunks with empty reasoning.
+		err := payload.StreamingReasoningFunc(ctx, []byte{}, []byte(text))
+		if err != nil {
+			return response, fmt.Errorf("streaming reasoning func returned an error: %w", err)
 		}
 	}
 
